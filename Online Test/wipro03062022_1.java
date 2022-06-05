@@ -1,8 +1,8 @@
 public class wipro03062022_1 {
-    public static void main(String[] args) {
-        // System.out.println("abhis");
+    public static void main(String[] args) 
+    {
         String str1="",str2="";
-        int x =2;
+        int x =3 ;
         switch (x) {
             case 1:
                 str1 = "ACZa";
@@ -20,14 +20,15 @@ public class wipro03062022_1 {
             default:
                 break;
         }
+
         String result = fun(str1,str2);
         System.out.println(result);
         
-
     }
     public static String fun(String str1,String str2){
         int len1 = str1.length();
         int len2 = str2.length();
+        if
         
         int mis=0,D=0,I=0;
         for (int i = 0; i < len1; i++) {

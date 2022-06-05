@@ -19,21 +19,17 @@ public class wipro03062022_1 {
             default:
                 break;
         }
-
         String result = fun(str1, str2);
         System.out.println(result);
 
     }
-
     public static String fun(String str1, String str2) {
         int len1 = str1.length();
         int len2 = str2.length();
         if (len1 != len2)
             return "Invalid";
-
         int mis = 0, D = 0, I = 0;
         for (int i = 0; i < len1; i++) {
-            char c = str1.charAt(i);
             if (i < len1 - 1) {
                 int ch1 = (int) str1.charAt(i);
                 int ch2 = (int) str1.charAt(i + 1);

@@ -28,7 +28,8 @@ public class wipro03062022_1 {
     public static String fun(String str1,String str2){
         int len1 = str1.length();
         int len2 = str2.length();
-        if
+        if(len1!=len2)
+        return "Invalid";
         
         int mis=0,D=0,I=0;
         for (int i = 0; i < len1; i++) {

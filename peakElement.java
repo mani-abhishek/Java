@@ -15,6 +15,14 @@ public class peakElement {
                         peak=arr[i];
                 }
             }
+            else if(i==0){
+                if(arr[i]>(i+1)&& peak < arr[i])
+                peak=arr[i];
+            }
+            else if(i==size-1){
+                if(arr[i]>(i-1)&& peak < arr[i])
+                peak=arr[i];
+            }
         }
         if(peak!=0)
         System.out.print(peak);

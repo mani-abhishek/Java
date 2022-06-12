@@ -16,6 +16,9 @@ public class peakElement {
                 }
             }
         }
+        if(peak!=0)
         System.out.print(peak);
+        else
+        System.out.print("No Peak Element");
     }
 }

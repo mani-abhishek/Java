@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class peakElement {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Abhi");
         int arr []={2,4,5,6,8,3};
         int size = arr.length;
         peak(arr,size);

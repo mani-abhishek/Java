@@ -5,6 +5,7 @@ public class peakElement {
         int arr []={2,4,5,6,8,3};
         int size = arr.length;
         peak(arr,size);
+        sc.close();
     }
     public static void peak(int arr [],int size){
         int peak = 0;

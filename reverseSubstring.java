@@ -1,7 +1,11 @@
+// Question : perform n times reverse over substring.
+// 1. sweet = ewset,2.ewset = eeswt,3. eeswt = eetws
+
+
 public class reverseSubstring {
     public static void main(String[] args) {
         System.out.println("Abhishek Mani");
-        String str = "sweet"; //1. sweet = ewset,2.ewset = eeswt,3. eeswt = eetws  
+        String str = "sweet";   
         reverseString(str);
         
     }

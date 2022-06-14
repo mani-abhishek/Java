@@ -7,7 +7,9 @@ public class stringFunction {
         String forsSubstring = "Abhishek Mani";
         demo.substring(forsSubstring);
 
+        demo.characterAtIndex(forsSubstring);
 
+        demo.basicOperation(forsSubstring);
     }
 }
 
@@ -24,5 +26,12 @@ class demoOnString{
         // this will print empty string becasue 0 to 0 
         System.out.println(str.substring(0,0));
 
+    }
+    public void characterAtIndex(String str){
+        System.out.println(str.charAt(0));
+    }
+    public void basicOperation(String str){
+        System.out.println(str.toLowerCase());
+        System.out.println(str.toUpperCase());
     }
 }

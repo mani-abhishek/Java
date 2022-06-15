@@ -28,7 +28,10 @@ class demoOnString{
 
     }
     public void stringToCharArray(String str){
-        
+        char arr [] = str.toCharArray();
+        for (char c : arr) {
+            System.out.println(c);
+        } 
     }
     public void basicOperation(String str){
         System.out.println(str.toLowerCase());

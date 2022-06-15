@@ -28,14 +28,22 @@ class demoOnString{
 
     }
     public void stringToCharArray(String str){
+        // toCharArray function will convert string into char array and store into intialized array.
         char arr [] = str.toCharArray();
         for (char c : arr) {
             System.out.println(c);
         } 
     }
     public void basicOperation(String str){
+        // convert into Lower Case
         System.out.println(str.toLowerCase());
+        // converrt into Upper Case
         System.out.println(str.toUpperCase());
+        // find character at given index
         System.out.println(str.charAt(0));
+
+        System.out.print("  abh sd sd ".trim());
+
+        System.out.print("s");
     }
 }

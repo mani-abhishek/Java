@@ -10,6 +10,9 @@ public class stringFunction {
         demo.stringToCharArray(forsSubstring);
 
         demo.basicOperation(forsSubstring);
+
+        demo.valueOfMethod();
+
     }
 }
 
@@ -51,6 +54,27 @@ class demoOnString{
         System.out.println(str.length());
         //Returns the value of a String object
         System.out.println(str.toString());
-        System.out.println(str.valueOf('s'));
+       
+    }
+    public void valueOfMethod(){
+        boolean b1=true;  
+        byte b2=11;    
+        short sh = 12;  
+        int i = 13;  
+        long l = 14L;  
+        float f = 15.5f;  
+        double d = 16.5d;  
+        char chr[]={'j','a','v','a'};  
+        demoOnString obj=new demoOnString();  
+        System.out.println(String.valueOf(b1));    
+        System.out.println(String.valueOf(b2));    
+        System.out.println(String.valueOf(sh));    
+        System.out.println(String.valueOf(i));    
+        System.out.println(String.valueOf(l));    
+        System.out.println(String.valueOf(f));    
+        System.out.println(String.valueOf(d));    
+        System.out.println(String.valueOf(chr));    
+        System.out.println(String.valueOf(obj));    
+        
     }
 }

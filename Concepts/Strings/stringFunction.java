@@ -38,12 +38,17 @@ class demoOnString{
         // convert into Lower Case
         System.out.println(str.toLowerCase());
         // converrt into Upper Case
-        System.out.println(str.toUpperCase());
+        System.out.println(str.toUpperCase()); 
         // find character at given index
-        System.out.println(str.charAt(0));
-
-        System.out.print("  abh sd sd ".trim());
-
-        System.out.print("s");
+        System.out.println(str.charAt(0)); //A
+        // remove spaces at first and last
+        System.out.println("  Camp ".trim()); //camp
+        // find exact string and return index of first character otherwise -1.
+        System.out.println(str.indexOf("Mani")); //9
+        System.out.println(str.indexOf('m')); //-1
+        System.out.println(str.indexOf('a', 6)); // 10
+        System.out.println(str.indexOf("shek", 1)); //4
+        System.out.println(str.length());
+        System.out.println();
     }
 }

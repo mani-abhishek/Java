@@ -49,6 +49,8 @@ class demoOnString{
         System.out.println(str.indexOf('a', 6)); // 10
         System.out.println(str.indexOf("shek", 1)); //4
         System.out.println(str.length());
-        System.out.println();
+        //Returns the value of a String object
+        System.out.println(str.toString());
+        System.out.println(str.valueOf('s'));
     }
 }

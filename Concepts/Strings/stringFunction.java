@@ -65,9 +65,14 @@ class demoOnString{
 
         System.out.println(str.codePointCount(1, 4));
 
-        System.out.println(str.compareTo(str1));
+        System.out.println(str1.compareTo(str));
 
         System.out.println(str.compareToIgnoreCase(str1));
+
+        System.out.println(str.concat(str1));
+
+        System.out.println(str.contains("Mani"));
+        
        
     }
     public void valueOfMethod(){

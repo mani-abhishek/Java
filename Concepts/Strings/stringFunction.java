@@ -9,7 +9,7 @@ public class stringFunction {
 
         // demo.stringToCharArray(forsSubstring);
 
-        demo.basicOperation(forsSubstring);
+        demo.basicOperation();
 
         // demo.valueOfMethod();
 
@@ -37,7 +37,9 @@ class demoOnString{
             System.out.println(c);
         } 
     }
-    public void basicOperation(String str){
+    public void basicOperation(){
+        String str = "Abhishek Mani";
+        String str1 = "Vicky";
         // convert into Lower Case
         System.out.println(str.toLowerCase());
         // converrt into Upper Case
@@ -56,6 +58,16 @@ class demoOnString{
         System.out.println(str.toString());
         //Return the Unicode of the first character in a string (the Unicode value of "H" is 72)
         System.out.println(str.codePointAt(1));
+
+        System.out.println(str.codePoints());
+
+        System.out.println(str.codePointBefore(1));
+
+        System.out.println(str.codePointCount(1, 4));
+
+        System.out.println(str.compareTo(str1));
+
+        System.out.println(str.compareToIgnoreCase(str1));
        
     }
     public void valueOfMethod(){

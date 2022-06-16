@@ -75,7 +75,13 @@ class demoOnString{
 
         System.out.println(str.contentEquals("Abhishek Mani"));
 
-        
+        System.out.println((str.endsWith("ani")));
+
+        System.out.println(str.equals(str1));
+
+        System.out.println(str.equalsIgnoreCase(str1));
+
+
 
        
     }

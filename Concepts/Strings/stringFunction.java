@@ -72,7 +72,11 @@ class demoOnString{
         System.out.println(str.concat(str1));
 
         System.out.println(str.contains("Mani"));
+
+        System.out.println(str.contentEquals("Abhishek Mani"));
+
         
+
        
     }
     public void valueOfMethod(){

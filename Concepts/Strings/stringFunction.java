@@ -5,13 +5,13 @@ public class stringFunction {
         demoOnString demo = new demoOnString();
         // Demonstraton on substring means dividing string into multiple string
         String forsSubstring = "Abhishek Mani";
-        demo.substring(forsSubstring);
+        // demo.substring(forsSubstring);
 
-        demo.stringToCharArray(forsSubstring);
+        // demo.stringToCharArray(forsSubstring);
 
         demo.basicOperation(forsSubstring);
 
-        demo.valueOfMethod();
+        // demo.valueOfMethod();
 
     }
 }
@@ -54,6 +54,8 @@ class demoOnString{
         System.out.println(str.length());
         //Returns the value of a String object
         System.out.println(str.toString());
+        //Return the Unicode of the first character in a string (the Unicode value of "H" is 72)
+        System.out.println(str.codePointAt(1));
        
     }
     public void valueOfMethod(){

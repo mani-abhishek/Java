@@ -26,7 +26,6 @@ public class program1 {
             char ch = s.charAt(i);
             res+=ch;
         }
-        
         return res;
     }
 }

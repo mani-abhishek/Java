@@ -15,9 +15,18 @@ public class program1 {
             if(result.length()<st.length())
             result = st;
         }
-        System.out.println(result);
+        System.out.println(reverse(result));
     }
     public static String removePunctuations(String source) {
         return source.replaceAll("\\p{IsPunctuation}", "");
+    }
+    public static String reverse(String s){
+        String res = "";
+        for (int i = s.length()-1; i >= 0 ; i--) {
+            char ch = s.charAt(i);
+            res+=ch;
+        }
+        
+        return res;
     }
 }

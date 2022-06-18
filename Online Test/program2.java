@@ -4,6 +4,14 @@ public class program2 {
         operation(str);
     }
     public static void operation(String str){
-
+        String s = str;
+        int count;
+        String result = "";
+        for (int i = 0; i < s.length(); i++) {
+            count = 0;
+            if(s.charAt(i)==s.charAt(i+1)){
+                count++;
+            }
+        }
     }
 }

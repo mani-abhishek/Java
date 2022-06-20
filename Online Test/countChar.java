@@ -1,4 +1,4 @@
-public class program2 {
+public class countChar {
     public static void main(String[] args) {
         String str = "aabbbcc";
         // operation(str);

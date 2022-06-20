@@ -1,6 +1,6 @@
 // IESoft Technologies Private Limited
 // Java Development internship
-public class program1 {
+public class longestWord {
     public static void main(String[] args) {
         String str  = "fun&!! time"; 
         String str1 = "I love dogs present at my home";

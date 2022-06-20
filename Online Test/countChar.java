@@ -1,3 +1,4 @@
+// Ques : Count character continuesly in String
 public class countChar {
     public static void main(String[] args) {
         String str = "aabbbcc";

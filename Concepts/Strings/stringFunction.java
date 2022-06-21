@@ -83,6 +83,8 @@ class demoOnString{
 
         System.out.println(str.hashCode());
 
+        System.out.println(str.intern());
+
 
 
        

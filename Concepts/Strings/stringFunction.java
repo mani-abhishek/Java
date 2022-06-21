@@ -81,6 +81,8 @@ class demoOnString{
         // match the string ingnorinng case
         System.out.println(str.equalsIgnoreCase(str1));
 
+        System.out.println(str.hashCode());
+
 
 
        

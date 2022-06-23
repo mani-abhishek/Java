@@ -7,7 +7,7 @@ public class stringStringBufferStringBuilder {
         StringBuffer name2 = new StringBuffer("Abhishek");
         concat3(name2);
         System.out.println(name);
-        sys
+        System.out.println(name1);
     }
     public static void concat1(String s){
         s = s+" Mani";

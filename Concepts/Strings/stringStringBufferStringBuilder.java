@@ -8,6 +8,7 @@ public class stringStringBufferStringBuilder {
         concat3(name2);
         System.out.println(name);
         System.out.println(name1);
+        System.out.println(name2);
     }
     public static void concat1(String s){
         s = s+" Mani";
@@ -16,7 +17,7 @@ public class stringStringBufferStringBuilder {
         s.append(" Mani");
     }
     public static void concat3(StringBuffer s){
-        s.append(s);
+        s.append(" Mani");
     }
 }
 

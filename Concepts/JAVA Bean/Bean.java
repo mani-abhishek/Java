@@ -11,7 +11,8 @@
 public class Bean {
 
     public static void main(String[] args) {
-        
+        javaBeanDemo obj = new javaBeanDemo();
+        obj.setName("Abhi");
     }
 }
 
@@ -23,6 +24,12 @@ class javaBeanDemo{
     javaBeanDemo(){
 
     }
-    
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
     
 }

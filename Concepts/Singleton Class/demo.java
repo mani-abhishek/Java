@@ -5,7 +5,10 @@ public class demo {
 
     public static void main(String[] args) {
         singleton o = singleton.getInstance();
+        singleton o1 = singleton.getInstance();
         o.show();
+        System.out.println(o.hashCode());
+        System.out.println(o1.hashCode());
         
     }
 }

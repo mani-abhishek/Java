@@ -16,7 +16,7 @@ public class demo{
         // Conclusion :  
         // - when we are going to call only one time method of class then use anonymous object, but when we are going to use multiple 
         // times then use reference object/ variable 
-        // -- when we create anonymous class then, spcae will be clean in Heap by Garbage collector because it not pointing to any reference but
+        // -- when we create anonymous object then, spcae will be clean in Heap by Garbage collector because it not pointing to any reference but
         // in case of reference object it point to reference variable in stack.
     }
 }

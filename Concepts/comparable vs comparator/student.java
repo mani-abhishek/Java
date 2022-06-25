@@ -1,4 +1,4 @@
-class student  {
+class student implements Comparable< student> {
     private int roll;
     private String name;
 
@@ -27,9 +27,9 @@ class student  {
         return roll + " " + name;
     }
 
-    // public int compareTo(student that) {
-    //     if(this.roll>that.roll)
-    //     return 1;
-    //     else return -1;
-    // }
+    public int compareTo(student that) {
+        if(this.roll>that.roll)
+        return 1;
+        else return -1;
+    }
 }

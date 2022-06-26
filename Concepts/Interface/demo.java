@@ -1,7 +1,8 @@
 /* 
- * types of interface : 1. SAM(Single abstract method) or functional interface which means only one method declare in interface. ex: runnable
+ * types of interface : 1. SAM(Single abstract method) or functional interface which means only one abstract method declare in interface. ex: runnable
  *                      2. Marker interface which means interface does not contain any method inside. ex: serilizable,remote,cloneable
  * 
+ *
  * 
 */
 

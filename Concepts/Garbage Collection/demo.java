@@ -39,4 +39,7 @@ class Student {
     public void show(){
         System.out.println("Id = "+id+" Name = "+name);
     }
+    protected void finalize(){
+        nextId--;
+    }
 }

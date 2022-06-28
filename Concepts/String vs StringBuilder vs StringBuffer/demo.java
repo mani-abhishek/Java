@@ -1,5 +1,5 @@
 /**
- * demo
+ * String buffer and string 
  */
 public class demo {
 

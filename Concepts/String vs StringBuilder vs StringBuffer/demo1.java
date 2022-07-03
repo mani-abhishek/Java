@@ -16,6 +16,9 @@ public class demo1 {
         // System.out.println(s1.reverse());
         System.out.println(s1.compareTo(s3));
         System.out.println(s1);
+
+
+        System.out.println(s1.subSequence(0, 1));
         
     }
 }

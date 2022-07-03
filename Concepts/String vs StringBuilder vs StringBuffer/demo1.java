@@ -19,6 +19,6 @@ public class demo1 {
 
 
         System.out.println(s1.subSequence(0, 1));
-        
+        System.out.println(s1.substring(0,1));
     }
 }

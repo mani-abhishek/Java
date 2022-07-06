@@ -19,10 +19,14 @@ public class intro {
         System.out.println(st.clone());
         System.out.println(st.empty());
         st.clear();//to make empty stack
+        st.push(5);
         st.push(6);
         System.out.println(st.hashCode());
 
         System.out.println(st.isEmpty());
+        System.out.println(st.indexOf(6));
+
+        System.out.println(st.contains(7));
     }
 
 }

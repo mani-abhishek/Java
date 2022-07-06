@@ -15,7 +15,11 @@ public class intro {
         System.out.println(st.peek()); // to see top of the stack
         st.push(6);
         System.out.println(st.capacity()); // return capacity of stack i.e 10 currently
-        System.out.println(st.size()); 
+        System.out.println(st.size()); // return how many element present in stack
+        System.out.println(st.clone());
+        System.out.println(st.empty());
+        st.clear();
+        System.out.println(st.hashCode());
     }
 
 }

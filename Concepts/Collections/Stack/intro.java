@@ -21,6 +21,8 @@ public class intro {
         st.clear();//to make empty stack
         st.push(6);
         System.out.println(st.hashCode());
+
+        System.out.println(st.isEmpty());
     }
 
 }

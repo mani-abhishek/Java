@@ -13,12 +13,13 @@ public class intro {
         st.push(5); //add data into stack
         System.out.println(st.pop()); //remove data from stack
         System.out.println(st.peek()); // to see top of the stack
-        st.push(6);
+        
         System.out.println(st.capacity()); // return capacity of stack i.e 10 currently
         System.out.println(st.size()); // return how many element present in stack
         System.out.println(st.clone());
         System.out.println(st.empty());
-        st.clear();
+        st.clear();//to make empty stack
+        st.push(6);
         System.out.println(st.hashCode());
     }
 

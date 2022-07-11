@@ -17,7 +17,7 @@ public class intro {
         
 
         // System.out.println(list);
-        fun();
+       
     }
    
 }

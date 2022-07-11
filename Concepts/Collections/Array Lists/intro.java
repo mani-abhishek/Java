@@ -16,7 +16,7 @@ public class intro {
         list.add(4, 8);
         
 
-        // System.out.println(list);
+        System.out.println(list);
        
     }
    

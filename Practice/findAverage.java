@@ -34,4 +34,4 @@ public class findAverage {
         for (int ele:a) if(ele==n) sum = sum + ele;
         return sum;
     }
-}
+}  

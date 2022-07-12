@@ -33,4 +33,4 @@ class countElement {
 		int N = a.length;
 		fun(a, x, N);
 	}
-}
+}  

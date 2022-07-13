@@ -42,11 +42,10 @@ public class nQueenProblem {
         return true;
     }
     private static void printSolution(char[][] mat) {
-        System.out.println("printing...");
-        // for (char[] ch : mat) {
-        //     System.out.println(Arrays.toString(ch).replaceAll(",", ""));
-        // }
-        // System.out.println();
+        for (char[] ch : mat) {
+            System.out.println(Arrays.toString(ch).replaceAll(",", ""));
+        }
+        System.out.println();
     }
     
 }

@@ -6,6 +6,7 @@ public class intro {
         Queue<Integer> q = new LinkedList<>();
         q.add(10);
         q.poll();
+        q.peek();
         System.out.println(q);
     }
 }

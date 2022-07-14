@@ -1,5 +1,7 @@
 import java.util.Arrays;
 /**
+ * https://docs.google.com/forms/d/e/1FAIpQLSdrltrQga13CCj2eH-pTvZJB5rP2RpDJef8FW4_KTg9OYQf4Q/alreadyresponded
+ * 
  * nQueenProblem
  * On an 8x8 chessboard place 8 queens in such a way that they are not on the attacking side of each other
  */

@@ -7,6 +7,7 @@ public class intro {
         q.add(10);
         q.poll();
         q.peek();
+        q.size();
         System.out.println(q);
     }
 }

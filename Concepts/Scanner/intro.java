@@ -10,6 +10,8 @@ public class intro {
         System.out.println("Your age is "+age);
 
 
-        sc.close();
+        finally{
+            sc.close();
+        }
     }
 }

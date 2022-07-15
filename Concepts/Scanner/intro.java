@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 
 public class intro {
+   
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,7 +12,7 @@ public class intro {
 
 
         finally{
-            sc.close();
+            // sc.close();
         }
     }
 }

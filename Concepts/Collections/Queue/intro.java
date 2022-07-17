@@ -12,6 +12,8 @@ public class intro {
         // recomended -- 3rd way to intialize Queue Data Structure
         ArrayDeque<Integer> q2 = new ArrayDeque<>();
 
+        Deque<Integer> q3 = new ArrayDeque<>();
+
         q.add(10);
         q.poll();
         q.peek();

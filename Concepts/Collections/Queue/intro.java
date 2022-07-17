@@ -5,11 +5,11 @@ import java.util.Queue;
 
 public class intro {
     public static void main(String[] args) {
-        // 1 method to implement Queue
+        // 1st method to implement Queue
         Queue<Integer> q = new LinkedList<>();
-        //2 method to implement Queue
+        //2nd method to implement Queue
         LinkedList<Integer> q1 = new LinkedList<>();
-        // 3rd way to intialize Queue Data Structure
+        // recomended -- 3rd way to intialize Queue Data Structure
         ArrayDeque<Integer> q2 = new ArrayDeque<>();
         q.add(10);
         q.poll();

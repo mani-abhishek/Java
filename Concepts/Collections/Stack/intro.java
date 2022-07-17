@@ -1,3 +1,4 @@
+import java.util.ArrayDeque;
 import java.util.Stack;
 
 
@@ -5,6 +6,10 @@ public class intro {
     public static void main(String[] args) {
         System.out.println("------------------------------= Welcome to Stack =------------------------------");
         Stack <Integer> st = new Stack<>();  // Declaration of Stack 
+
+        Deque<Integer> st1 = new ArrayDeque<>();
+
+        ArrayDeque<Integer> st2 = new ArrayDeque<>();
         
 
 

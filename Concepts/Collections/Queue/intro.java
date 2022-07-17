@@ -9,8 +9,8 @@ public class intro {
         Queue<Integer> q = new LinkedList<>();
         //2 method to implement Queue
         LinkedList<Integer> q1 = new LinkedList<>();
-
-        Deque<Integer> q2 = new ArrayDeque<>();
+        // 3rd way to intialize Queue Data Structure
+        ArrayDeque<Integer> q2 = new ArrayDeque<>();
         q.add(10);
         q.poll();
         q.peek();

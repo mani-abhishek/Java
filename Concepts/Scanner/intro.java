@@ -20,6 +20,7 @@ public class intro {
         }
     }
     public static void method1(){
+        // take char input in java using java
         char c = sc.next().charAt(0);
     }
 }

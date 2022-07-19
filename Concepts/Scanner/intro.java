@@ -19,4 +19,7 @@ public class intro {
             sc.close();
         }
     }
+    public static void method1(){
+        char c = sc.next().charAt(0);
+    }
 }

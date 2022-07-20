@@ -1,4 +1,5 @@
 import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Stack;
 
 
@@ -8,7 +9,7 @@ public class intro {
         Stack <Integer> st = new Stack<>();  // Declaration of Stack 
 
         Deque<Integer> st1 = new ArrayDeque<>();
-
+        // Just below and above are coorect way to initialize
         ArrayDeque<Integer> st2 = new ArrayDeque<>();
         
 

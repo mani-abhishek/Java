@@ -9,7 +9,7 @@ public class intro {
         Stack <Integer> st = new Stack<>();  // Declaration of Stack 
 
         Deque<Integer> st1 = new ArrayDeque<>();
-        // Just below and above are coorect way to initialize
+        // Recommende = Just below and above are coorect way to initialize
         ArrayDeque<Integer> st2 = new ArrayDeque<>();
         
 

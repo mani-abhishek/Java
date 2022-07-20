@@ -11,7 +11,7 @@ public class intro {
         LinkedList<Integer> q1 = new LinkedList<>();
         // recomended -- 3rd way to intialize Queue Data Structure
         ArrayDeque<Integer> q2 = new ArrayDeque<>();
-
+        // Recommende = Just below and above are coorect way to initialize
         Deque<Integer> q3 = new ArrayDeque<>();
 
         q.add(10);

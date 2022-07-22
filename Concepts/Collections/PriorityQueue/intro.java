@@ -27,7 +27,7 @@ class intro {
 
         // Printing all elements
         System.out.println("The queue elements:");
-        Iterator itr = pQueue.iterator();
+        Iterator<Integer> itr = pQueue.iterator();
         while (itr.hasNext())
             System.out.println(itr.next());
 

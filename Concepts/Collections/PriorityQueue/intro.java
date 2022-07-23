@@ -1,14 +1,9 @@
-// Java program to demonstrate working
-// of PriorityQueue as a Max Heap
-// Using Collections.reverseOrder() method
 
-// Importing all utility classes
 import java.util.*;
 
-// Main class
+
 class intro {
 
-    // Main driver method
     public static void main(String args[]) {
 
         // Creating empty priority queue

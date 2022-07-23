@@ -1,13 +1,13 @@
 
 import java.util.*;
 
-
 class intro {
 
     public static void main(String args[]) {
 
         // Creating empty priority queue
         PriorityQueue<Integer> pQueue = new PriorityQueue<Integer>(Collections.reverseOrder());
+        PriorityQueue<Integer> pq = new PriorityQueue<Integer>(); //Min Heap
 
         // Adding items to our priority queue
         // using add() method

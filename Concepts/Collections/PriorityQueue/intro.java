@@ -1,3 +1,7 @@
+/* 
+ * By default, Java provides Min Heap which means their children are greater than nodes. OR a Binary Tree where the root node has the minimum key in the tree
+ */
+
 
 import java.util.*;
 class intro {

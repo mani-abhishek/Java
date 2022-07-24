@@ -7,6 +7,11 @@
          40    50    100   40
  
  * But by passing Collections.reverseOrder() to Pririty Queue Contructor, we can define Max Heap also. Max Heap is binary tree where root node has the maximun key in the tree.
+ *              100
+             /      \
+            50       60
+           /   \    /  \
+          20   30  20   30
  */
 
 

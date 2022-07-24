@@ -1,7 +1,12 @@
 /* 
  * By default, Java provides Min Heap which means their children are greater than nodes. OR a Binary Tree where the root node has the minimum key in the tree
+ *               10
+              /      \  
+            15         30  
+           /  \        /  \
+         40    50    100   40
+ 
  * But by passing Collections.reverseOrder() to Pririty Queue Contructor, we can define Max Heap also. Max Heap is binary tree where root node has the maximun key in the tree.
- *  
  */
 
 

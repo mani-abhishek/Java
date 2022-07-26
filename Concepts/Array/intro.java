@@ -12,12 +12,19 @@ public class intro {
 
         // 2-D Array
         int z[][] = new int[1][3];
+        // int y[][]={3,4,5,6,7,8,9,10,11};
+        int y[][]={{3,4,5},{6,7,8},{9,10,11}};
+
+        print2D(y);
 
 
     }
     public static void print2D(int a[][]){
         for (int i = 0; i < a.length; i++) {
-            
+            for (int j = 0; j < a.length; j++) {
+                System.out.print(a[i][j]+"  ");
+            }
+            System.out.println();
         }
     }
 }

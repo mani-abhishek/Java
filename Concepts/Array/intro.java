@@ -9,6 +9,7 @@ public class intro {
         int b[];
         b = new int [1];
         int c[]={1,34,5,6};
+        print1D(c);
 
         // 2-D Array
         int z[][] = new int[1][3];

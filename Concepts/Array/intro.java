@@ -11,6 +11,8 @@ public class intro {
         int c[]={1,34,5,6};
         print1D(c);
 
+        System.out.println(c[0]);
+
         // 2-D Array
         int z[][] = new int[1][3];
         // int y[][]={3,4,5,6,7,8,9,10,11};

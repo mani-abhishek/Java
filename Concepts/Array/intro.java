@@ -32,7 +32,7 @@ public class intro {
     }
     public static void print1D(int a[]){
         for (int ele :a) {
-            System.out.print(ele+", ");
+            System.out.print(ele+", ");   
         }
     }
 }

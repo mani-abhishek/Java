@@ -15,7 +15,7 @@ class A implements Runnable{
     public void run(){
         System.out.println(Thread.currentThread().getId()+i);
         try {
-            Thread.sleep(5000);
+            Thread.sleep(5000); 
         } catch (Exception e) {
             System.out.println("error");
         }

@@ -1,84 +1,80 @@
 import java.util.ArrayList;
-
+import java.util.Collections;
 public class test {
-
     public static void main(String[] args) {
-
-
-        ArrayList<ArrayList<Integer> > list = new ArrayList<ArrayList<Integer>>();
         ArrayList<Integer> a = new ArrayList<>();
-        // a.add(1);
-        // a.add(2);
-        // a.add(3);
-        // list.add(a);
-        // System.out.println(list);
-
-        
         int num []  = { 1, 2, 3 };
-        // printGroups(num, 0, "");
-        String s = "(1),(2,3)";
-        convert(s);
+        printGroups(num, 0, "",a);
+        System.out.println(a);
+        a.add(0);
+        a.add(0);
+        a.add(0);
+        Collections.sort(a);
+        int c=0;
+        for (Integer i : a) {
+            if(i!=0) break;
+            c++;
+        }
+        int result = a.get(a.size()-1)-a.get(c);
+        System.out.println(result);
 
 
-
-        // printGroup(new int[] { 1, 2, 3 }, 0, "");
+        // String s="(1,2),(3)";
+        // convert(s);
     }
 
-    static void printGroups(int[] a, int start, String output) {
-        
+    static void printGroups(int[] a, int start, String output,ArrayList<Integer> l5) {
         output = output + "(" + a[start];
         for (int i = start + 1; i < a.length; i++) {
-            printGroups(a, i, output + "),");
+            printGroups(a, i, output + "),",l5);
             output = output+ "," + a[i];
         }
         output += ")";
-        convert(output);
-        System.out.println(output);
+        l5.add(convert(output));
+        // System.out.println(output);
         
     }
-    static void convert(String s){
-        ArrayList<ArrayList<Integer> > list = new ArrayList<ArrayList<Integer>>();
+    static int convert(String s){
+        // System.out.println(s);
+        int ans =0;
         ArrayList<Integer> l = new ArrayList<>();
         ArrayList<Integer> l1 = new ArrayList<>();
         for (int i = 0; i < s.length(); i++) {
             if(s.charAt(i)==')'){
                 if(l.size()==1){
                     l1.add(l.get(0));
-                    l.clear();
-                    
                 }
                 else{
                     l1.add(andOperation(l));
                 }
-                
+                l.clear(); 
             }
             else if(s.charAt(i)!='('&&s.charAt(i)!=','){
-                // System.out.println(ch);
                 int x= s.charAt(i)-'0';
-                // System.out.println("x= "+x);
                 l.add(x);
-                // System.out.println(l);
             }
         }
-        System.out.println(l1);
+        ans = orOperation(l1);
+        
+        return ans;
     }
 
     static int andOperation(ArrayList<Integer> l){
-        System.out.println("Insidse And ");
         int ans=l.get(0);
         l.remove(0);
         for (Integer i : l) {
             ans =ans&i;
-            // System.out.println(i);
         }
+        // System.out.println("And="+ans);
         return ans;
     }
     static int orOperation(ArrayList<Integer> l){
         int ans=l.get(0);
+        l.remove(0);
         for (Integer i : l) {
             ans =ans|i;
-            // System.out.println(i);
         }
+        // System.out.println("Or= "+ans);
         return ans;
     }
 

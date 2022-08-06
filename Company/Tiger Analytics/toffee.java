@@ -3,23 +3,23 @@ import java.util.Scanner;
 import java.util.stream.IntStream;
 public class toffee {
     public static void main(String[] args) {
-        // Scanner sc= new Scanner(System.in);
-        // boolean opt = true;
-        // while(opt){
-        //     System.out.print("Enter Number of toffee = ");
-        //     int toffee = sc.nextInt();
-        //     System.out.print("\nEnter a Number Children = ");
-        //     int child = sc.nextInt();
-        //     System.out.print("\nEnter your Friend Position = ");
-        //     int myFriend = sc.nextInt();
-        //     myFun(toffee,child,myFriend);
-        // }
-        // sc.close();
+        Scanner sc= new Scanner(System.in);
+        boolean opt = true;
+        while(opt){
+            System.out.print("Enter Number of toffee = ");
+            int toffee = sc.nextInt();
+            System.out.print("Enter a Number Children = ");
+            int child = sc.nextInt();
+            System.out.print("Enter your Friend Position = ");
+            int myFriend = sc.nextInt();
+            myFun(toffee,child,myFriend);
+        }
+        sc.close();
         
-        int toffee = 100;
-        int child = 10;
-        int myFriend = 3;
-        myFun(toffee,child,myFriend);
+        // int toffee = 2000;
+        // int child = 13;
+        // int myFriend = 4;
+        // myFun(toffee,child,myFriend);
         
     }
 
@@ -29,12 +29,12 @@ public class toffee {
         for (int i = 0; i < arr.length; i++) {
             if(toffee>0){
                 if(x%child==0){
-                    arr[i] = child-1;
-                    toffee = toffee-(child-1);
+                    arr[i] = (x/child)-1;
+                    toffee = toffee-((x/child)-1);
                 }
                 else if(x%child!=0){
-                    arr[i] = child;
-                    toffee = toffee-child;
+                    arr[i] = x/child;
+                    toffee = toffee-(x/child);
                 }
             }
         }

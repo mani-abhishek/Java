@@ -37,7 +37,8 @@ public class lex
         myFun("GEEKSFORGEEKS");
 	}
 
-    static void myFun(String str ){
+    static String myFun(String str ){
+		String input = "babcbb";
         int len = str.length();
         String temp = str +str;
         String arr[] = new String[len];
@@ -46,6 +47,7 @@ public class lex
         }
         Arrays.sort(arr);
         System.out.println(arr[0]);
+		return arr[0];
     }
 }
 

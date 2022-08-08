@@ -7,7 +7,7 @@ public class balanced {
 
     private static void muFun(int[] arr) {
         int length = arr.length;
-        int min = arr[length-1];
+        int min = arr[length-1];  
         int max = arr[0];
         int ans=0;
         int l = length-1;

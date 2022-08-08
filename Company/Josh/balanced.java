@@ -1,7 +1,7 @@
 public class balanced {
     public static void main(String[] args) {
-        // int arr[] = {5,1,4,3,6,8,10,7,9};
-        int arr[]= {4,3,2,5,7,8};
+        int arr[] = {5,1,4,3,6,8,10,7,9};
+        // int arr[]= {4,3,2,11,12};
         muFun(arr);
     }
 
@@ -14,12 +14,12 @@ public class balanced {
         for (int i = 0; i < length; i++) {
             int curr = arr[i];
             int last = arr[l];
-            if(curr>max&&last<min){
-                ans = i;
-                System.out.println(ans);
+            if(curr>max&&last<=min){
+                ans = arr[i];
+                System.out.println(i+" = "+ans);
                 break;
-            }else if(curr>max) max=curr;
-            else if(last<min) min=last;
+            } if(curr>max) max=curr;
+             if(last<min) min=last;
             l--;
         }
     }

@@ -8,7 +8,7 @@ public class intro {
             // System.out.println("Enter Name =");
             int age = sc.nextInt();
             System.out.println("Your age is " + age);
-            // method1(sc);
+            // toTakeCharInput(sc);
             specialCase(sc);
         } catch (Exception e) {
             // TODO: handle exception
@@ -29,7 +29,7 @@ public class intro {
         }
     }
 
-    public static void method1(Scanner sc) {
+    public static void toTakeCharInput(Scanner sc) {
         // take char input in java using java
         char c = sc.next().charAt(0);
     }

@@ -7,9 +7,9 @@ public class bufferedReader {
     public static void main(String[] args) throws IOException {
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(in);
-        // int size = Integer.parseInt(br.readLine());
-        // String word = br.readLine();
-        // String sen[] = new String[size];
+        int size = Integer.parseInt(br.readLine());
+        String word = br.readLine();
+        String sen[] = new String[size];
         String line;
         int i=0;
         while((line=br.readLine())!=null){

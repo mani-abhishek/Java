@@ -11,11 +11,10 @@ public class bufferedReader {
         String word = br.readLine();
         String sen[] = new String[size];
         String line;
-        int i=0;
-        while((line=br.readLine())!=null){
-            System.out.println(line);
+        for (int i = 0; i < size; i++) {
+            sen[i] = br.readLine();
         }
-        // System.out.println(Arrays.toString(sen));
+        System.out.println(Arrays.toString(sen));
 
     }
 }

@@ -9,10 +9,12 @@ class employee {
         this.gender = gender;
         this.department = department;
     }
-    @Override
-    public String toString() {
-        return "employee [age=" + age + ", department=" + department + ", gender=" + gender + ", name=" + name + "]";
-    }
+    
+    // @Override
+    // public String toString() {
+    //     return "employee [age=" + age + ", department=" + department + ", gender=" + gender + ", name=" + name + "]";
+    // }
+
     public String getName() {
         return name;
     }

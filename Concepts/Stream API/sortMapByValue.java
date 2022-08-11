@@ -1,3 +1,9 @@
+/* 
+ * LinkedHashMap maintain the order when we put some data
+ * HashMap will do not maintain any order
+ * TreeMap store data in sorted order by key(ASCII value)
+ */
+
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -14,6 +20,7 @@ public class sortMapByValue {
         map.put("vicky", 45);
         System.out.println(map);
 
+        //Sort HashMap by Value using Stream
         LinkedHashMap<String,Integer> sortedMap =   map.entrySet().stream().sorted((e1,e2)->{
             return e1.getValue()-e2.getValue();
         }).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,(e1,e2)->e1,LinkedHashMap::new));

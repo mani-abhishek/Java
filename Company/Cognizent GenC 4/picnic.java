@@ -1,6 +1,4 @@
-/**
- * picnic
- */
+
 public class picnic {
 
     

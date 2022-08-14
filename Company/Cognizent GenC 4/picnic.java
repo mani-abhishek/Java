@@ -1,0 +1,7 @@
+/**
+ * picnic
+ */
+public class picnic {
+
+    
+}

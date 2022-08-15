@@ -5,6 +5,11 @@ public class maxMeanMedianDiff {
     private static double findMean(){
 
         return ans;
+    
+    }
+    private static double findMedian(){
+
+        return ans;
     }
 
 }

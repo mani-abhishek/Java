@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class circularTraversal {
     public static void main(String[] args) {
-        int arr[][]={{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}};
+        int arr[][]={{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20}};
         // output 1,2,3,4,5,10,15,14,13,12,11,6,7,8,9
-        int n = 3;
+        int n = 4;
         int m = 5;
         printList(arr);
         solve(arr,n,m);
@@ -14,15 +14,16 @@ public class circularTraversal {
         int len = m*n;
         int i=0;
         int j=0;
-        
+        int a=m;
+        int b=n;
         while(x<=len){
-            while(j<n&&x<=len){
+            while(j<b&&x<=len){
                 System.out.print(arr[i][j++]+",");
                 x++;
             }
             i++;
             j--;
-            while(x<=len&&i<m){
+            while(x<=len&&i<a){
                 System.out.print(arr[i++][j]+",");
                 x++;
             }
@@ -39,6 +40,8 @@ public class circularTraversal {
             }
             i=i+1;
             j=j+1;
+            a=a+1;
+
             // System.out.println(i+" = "+j);
             // break;
         }

@@ -6,12 +6,10 @@ public class numberToIndianFormat {
 
     private static void func(long num) {
         StringBuilder str = new StringBuilder(num+"");
-        // System.out.println(str);
         int len = str.length()-3;
         str.insert(len, ',');
-        len=len-2;
-        for (int i = len; i > 0; i=i-2) {
-            System.out.println(str.length());
+        for (int i = len-2; i > 0; i=i-2) {
+            System.out.println(i);
             str.insert(i, ',');  
         }
         System.out.println(str);

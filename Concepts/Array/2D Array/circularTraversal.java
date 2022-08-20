@@ -8,6 +8,21 @@ public class circularTraversal {
         int c = 5;
         printList(arr);
         solve(arr,r,c);
+        solution(arr,r,c);
+    }
+    private static void solution(int[][] arr, int r, int c) {
+        int i,rowStart=0,rowEnd=r,colStart = 0,colEnd=c;
+        while(rowStart<rowEnd&&colStart<colEnd){
+            for(i=colStart;i<colEnd;++i){
+                System.out.print(arr[rowStart][i]+",");
+            }rowStart++;
+            for(i=rowStart;i<rowEnd;i++){
+                System.out.print(arr[i][colEnd-1]+",");
+            }colEnd--;
+            if( )
+        }
+
+    
     }
     private static void solve(int[][] arr, int r, int c) {
         int i=0,j=0,x=1,y=0,k=0;

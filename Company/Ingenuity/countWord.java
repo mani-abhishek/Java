@@ -16,6 +16,7 @@ public class countWord {
         }
         // sorted.putAll(map);
         System.out.println(map);
+        sc.close();
     }
 
     private static int count(String s, String word) {

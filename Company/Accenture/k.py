@@ -5,7 +5,7 @@ import string
 class Item:
     def __init__(self, value, weight):
         self.value = value
-        self.weight = weight
+        self.weight = weight  
 
 def fractionalKnapsack(W, arr):
     arr.sort(key=lambda x: (x.value/x.weight), reverse=True)

@@ -6,9 +6,6 @@ class Item:
     def __init__(self, value, weight):
         self.value = value
         self.weight = weight
-    
-    def __str__(self):
-        return self.value + ' is with ' + str(self.weight) + ' model name.'
 
 def fractionalKnapsack(W, arr):
     arr.sort(key=lambda x: (x.value/x.weight), reverse=True)

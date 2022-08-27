@@ -1,6 +1,4 @@
-/**
- * test
- */
+
 public class test {
 
     

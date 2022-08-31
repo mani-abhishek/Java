@@ -14,6 +14,7 @@ public class p4 {
                     if (arr[i][j - 1] == 1 || arr[i][j + 1] == 1 || arr[i + 1][j] == 1 || arr[i - 1][j] == 1) {
                         ans = ans + 1;
                         // System.out.println(arr[i][j]);
+                        System
                     }
                 }
             }
